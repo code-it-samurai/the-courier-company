@@ -1,0 +1,249 @@
+body{
+  overflow-x: hidden;
+}
+
+/* NAVBAR */
+.nav-items-container{
+  justify-content: flex-end;
+}
+.nav{
+  margin-bottom: auto;
+}
+.navbar{
+  position:sticky;
+  top:0;
+  z-index: 1000;
+}
+
+/* MAIN TITLE */
+.exposure-div{
+  z-index: 30;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  height:46.5vw;
+  width:100%;
+}
+.title-div{
+  z-index: 10;
+  color: white;
+  font-size: 6.5vw;
+  font-weight: bold;
+  margin-left: 50px;
+}
+.title-container{
+  margin-top: 15%;
+  position: absolute;
+  display:flex;
+}
+.btn{
+  height:50px;
+  width:120px;
+  border-radius: .5rem;
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+
+/* CAROUSEL */
+.carousel-main-container{
+  overflow: hidden;
+}
+
+/* FEATURES */
+.feature{
+  display:flex;
+  text-align: center;
+  flex-direction: column;
+  height:200px;
+}
+.icon{
+  height:110px;
+}
+.feature-container{
+  padding-top: 10px;
+  background:black;
+  height:400px;
+  text-align: center;
+}
+.feature-title{
+  text-align: center;
+  font-weight: bold;
+  font-size: 3vw;
+  margin-top:40px;
+  margin-bottom: 40px;
+}
+
+/* ABOUT US */
+.about-us{
+  height:85vh;
+}
+.about-title{
+  font-weight: bold;
+  text-align: center;
+  font-size: 3vw;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.about-para{
+  font-size: 1.5vw;
+  display:inline-block;
+  margin-left: 15px;
+  width:95%;
+}
+.about-us-image{
+  float: right;
+  height:25vw;
+  margin:50px 80px 50px 80px;
+}
+.about-us-content-container{
+  display:flex;
+  justify-content:space-between;
+}
+
+/* CLIENT REVIEWS */
+.client-reviews-container{
+  padding-top: 10px;
+  margin-top: 100px;
+  background:black;
+  height:400px;
+  text-align: center;
+}
+.card{
+  margin-bottom:40px;
+}
+.client-reviews-title{
+  text-align: center;
+  font-weight: bold;
+  font-size: 3vw;
+  margin-top:40px;
+  margin-bottom: 40px;
+}
+.review-column{
+  display:flex;
+  justify-content: center;
+}
+.card-title-holder{
+  display:flex;
+}
+.customer-image{
+  height:50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.title-subtitle{
+  text-align: left;
+}
+.card-text{
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+/* ORDER TYPE */
+.order-type{
+  padding-top: 10px;
+  margin-bottom: 200px;
+  height:400px;
+  text-align: center;
+}
+.order-title{
+  text-align: center;
+  font-weight: bold;
+  font-size: 3vw;
+  margin-top:40px;
+  margin-bottom: 40px;
+}
+.order-column{
+  display:flex;
+  justify-content: center;
+}
+
+/* CONTACT US */
+.contactus{
+  padding-top: 10px;
+  height:600px;
+  background: #0f3460;
+  color:white;
+}
+.contactus-title{
+  text-align: center;
+  font-weight: bold;
+  font-size: 3vw;
+  margin-top:40px;
+  margin-bottom: 40px;
+}
+.contactus-body{
+  display:flex;
+}
+.contact-info{
+  height:50%;
+  padding:20px;
+  height:300px;
+}
+.phone-numbers{
+  height:70px;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.email-addresses{
+  height:70px;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.address{
+  height:70px;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.cd-title{
+  margin: auto;
+  font-weight: bold;
+  font-size: 2vw;
+  width:50%;
+}
+.cinfo{
+  margin:auto;
+  font-size: 16px;
+  width:50%
+}
+.founder{
+  padding:40px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  height:50%
+}
+.founder-img{
+  height:20vw;
+  border-radius: 50%;
+}
+.founder-name{
+  margin-top:20px;
+}
+
+/* FOOTER */
+.footer{
+  padding-top: 10px;
+  height:500px;
+  background: #e94560;
+}
+.logo-footer-img{
+  height:5vw;
+}
+/* 760 */
+@media (max-width:760px) {
+  .feature-container{
+    height:150vh;
+  }
+}
+@media(max-width:980px){
+  .client-reviews-container{
+    height:145vh;
+  }
+}
+@media(max-width:770px){
+  .contactus{
+    height:120vh;
+  }
+}
