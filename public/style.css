@@ -247,7 +247,7 @@ body{
     height:120vh;
   }
 }
-@media(max-width: 650px){
+@media(max-width: 750px){
  .about-para{
     font-size: 15px;
     display:inline-block;
