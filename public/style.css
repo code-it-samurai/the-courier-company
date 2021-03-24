@@ -53,7 +53,7 @@ body{
   display:flex;
   text-align: center;
   flex-direction: column;
-  height:200px;
+  padding:50px;
 }
 .icon{
   height:110px;
@@ -61,8 +61,11 @@ body{
 .feature-container{
   padding-top: 10px;
   background:black;
-  height:400px;
+  width:100%;
+  z-index: 605;
+  display: inline-block;
   text-align: center;
+  margin-bottom: 100px;
 }
 .feature-title{
   text-align: center;
@@ -74,7 +77,9 @@ body{
 
 /* ABOUT US */
 .about-us{
-  height:85vh;
+  /*height:85vh;*/
+  width:100%;
+  display: inline-block;
 }
 .about-title{
   font-weight: bold;
@@ -98,13 +103,19 @@ body{
   display:flex;
   justify-content:space-between;
 }
+.about-us-image-container{
+  display: flex;
+  justify-content: center;  
+}
 
 /* CLIENT REVIEWS */
 .client-reviews-container{
   padding-top: 10px;
   margin-top: 100px;
   background:black;
-  height:400px;
+  width:100%;
+  display: inline-block;
+  /*height:400px;*/
   text-align: center;
 }
 .card{
@@ -141,7 +152,9 @@ body{
 .order-type{
   padding-top: 10px;
   margin-bottom: 200px;
-  height:400px;
+  width:100%;
+  display: inline-block;
+  /*height:400px;*/
   text-align: center;
 }
 .order-title{
@@ -159,7 +172,9 @@ body{
 /* CONTACT US */
 .contactus{
   padding-top: 10px;
-  height:600px;
+  width:100%;
+  display: inline-block;
+  /*height:600px;*/
   background: #0f3460;
   color:white;
 }
@@ -224,30 +239,17 @@ body{
 
 /* FOOTER */
 .footer{
+  width:100%;
+  display: inline-block;
   padding-top: 10px;
-  height:500px;
   background: #e94560;
 }
 .logo-footer-img{
   height:5vw;
 }
 /* 760 */
-@media (max-width:760px) {
-  .feature-container{
-    height:150vh;
-  }
-}
-@media(max-width:980px){
-  .client-reviews-container{
-    height:145vh;
-  }
-}
-@media(max-width:770px){
-  .contactus{
-    height:120vh;
-  }
-}
-@media(max-width: 750px){
+
+@media(max-width: 790px){
  .about-para{
     font-size: 15px;
     display:inline-block;
@@ -258,10 +260,10 @@ body{
     float: right;
     height:25vw;
     margin:30px;
+    margin-top: 10px;
     margin-right: auto;
     margin-left: auto;
     width:300px;
-    height:170px;
   }
   .about-us-content-container{
     display: flex;
@@ -271,7 +273,7 @@ body{
     font-weight: bold;
     text-align: center;
     font-size: 30px;
-    margin-top: 40px;
+    /*margin-top: 40px;*/
     margin-bottom: 40px;
   } 
   .feature-title{
@@ -295,7 +297,13 @@ body{
   margin-top:40px;
   margin-bottom: 40px;
 }
-  .about-us{
-  height:90vh;
+.cd-title{
+  font-size: 25px;
+}
+.cinfo{
+  font-size: 25px;
+}
+.contactus-title{
+  font-size: 30px;
 }
 }
