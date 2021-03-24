@@ -306,4 +306,13 @@ body{
 .contactus-title{
   font-size: 30px;
 }
+@media(max-width: 980px){
+  .navbar{
+    height:80px;
+  }
+  .navbar-brand{
+    font-size: 28px;
+  }
+}
+  
 }
