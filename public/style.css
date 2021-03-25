@@ -147,7 +147,14 @@ body{
   margin-top:20px;
   margin-bottom:20px;
 }
-
+.review-card{
+  width: 30rem;
+  height: 200px;  
+}
+/*.card{
+  width: 20rem;
+  height: 200px;  
+*/}
 /* ORDER TYPE */
 .order-type{
   padding-top: 10px;
@@ -298,15 +305,15 @@ body{
   margin-bottom: 40px;
 }
 .cd-title{
-  font-size: 4vh;
+  font-size: 3vw;
 }
 .cinfo{
-  font-size: 4vh;
+  font-size: 3vw;
 }
 .contactus-title{
   font-size: 30px;
 }
-@media(max-width: 980px){
+@media(max-width: 992px){
   .navbar{
     height:80px;
   }
@@ -314,5 +321,4 @@ body{
     font-size: 24px;
   }
 }
-  
 }
